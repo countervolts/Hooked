@@ -37,7 +37,7 @@ ResetPing.Text = "Reset Ping"
 ResetPing.TextColor3 = Color3.fromRGB(70, 208, 60)
 ResetPing.TextSize = 20.000
 ResetPing.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/ReplicationLagFalse/main/ReplicateFalse.lua?token=GHSAT0AAAAAAB4XYAXYIB7OBA3HCURUD2LEY62CK4A",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/ReplicationLagFalse/main/ReplicateFalse.lua?token=GHSAT0AAAAAAB4XYAXYX6KM36PLI5YNVKQGY62D47Q",true))()
 end)
 
 GetPing.Name = "GetPing"
