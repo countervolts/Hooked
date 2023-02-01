@@ -51,7 +51,7 @@ GetPing.Text = "Get local Ping"
 GetPing.TextColor3 = Color3.fromRGB(70, 208, 60)
 GetPing.TextSize = 20.000
 GetPing.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/PingFPS/main/PingFps.lua?token=GHSAT0AAAAAAB4XYAXZF3XOQ7XPANVYAISAY62CMWA",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/PingFPS/main/PingFps.lua?token=GHSAT0AAAAAAB4XYAXYUUATQXAGPCKQJ3OSY62EGFA",true))()
 end)
 
 ChangePing.Name = "ChangePing"
