@@ -67,9 +67,6 @@ ChangePing.TextSize = 20.000
 ChangePing.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/ReplicationLagTrue/main/obf.lua?token=GHSAT0AAAAAAB4XYAXYOWW2MTFB3ZXBCOCMY62CN3A",true))()
 end)
-ChangePing.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/GUI.lua/main/GUIMAIN.lua?token=GHSAT0AAAAAAB4XYAXZJZKC3IGD55MRGMTWY62C7VA",true))()
-end)
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
