@@ -65,7 +65,7 @@ ChangePing.Text = "Replicate Ping"
 ChangePing.TextColor3 = Color3.fromRGB(70, 208, 60)
 ChangePing.TextSize = 20.000
 ChangePing.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/ReplicationLagTrue/main/obf.lua?token=GHSAT0AAAAAAB4XYAXZZ452GC5RVEO3IJ72Y6Z72HQ",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/ReplicationLagTrue/main/obf.lua?token=GHSAT0AAAAAAB4XYAXZB7QINBPCW6FF6OBUY62CHRQ",true))()
 end)
 
 TextLabel.Parent = Frame
