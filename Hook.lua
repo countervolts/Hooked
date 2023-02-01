@@ -51,7 +51,7 @@ GetPing.Text = "Get local Ping"
 GetPing.TextColor3 = Color3.fromRGB(70, 208, 60)
 GetPing.TextSize = 20.000
 GetPing.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/PingFPS/main/PingFps.lua?token=GHSAT0AAAAAAB4XYAXZHEZCSJ4TFILLS67KY6Z7MRA",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/PingFPS/main/PingFps.lua?token=GHSAT0AAAAAAB4XYAXZF3XOQ7XPANVYAISAY62CMWA",true))()
 end)
 
 ChangePing.Name = "ChangePing"
@@ -65,7 +65,10 @@ ChangePing.Text = "Replicate Ping"
 ChangePing.TextColor3 = Color3.fromRGB(70, 208, 60)
 ChangePing.TextSize = 20.000
 ChangePing.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/ReplicationLagTrue/main/obf.lua?token=GHSAT0AAAAAAB4XYAXZB7QINBPCW6FF6OBUY62CHRQ",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/ReplicationLagTrue/main/obf.lua?token=GHSAT0AAAAAAB4XYAXYOWW2MTFB3ZXBCOCMY62CN3A",true))()
+end)
+ChangePing.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/logger.lua/main/logger.lua?token=GHSAT0AAAAAAB4XYAXYHAADFGBHOWKGR4WGY62CFOA",true))()
 end)
 
 TextLabel.Parent = Frame
