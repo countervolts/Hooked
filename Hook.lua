@@ -9,7 +9,7 @@ local TextLabel = Instance.new("TextLabel")
 local Frame_2 = Instance.new("Frame")
 local Frame_3 = Instance.new("Frame")
 local Frame_4 = Instance.new("Frame")
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/countervolts/GUI.lua/main/GUIMAIN.lua?token=GHSAT0AAAAAAB4XYAXZTPZ7XUUGGNCRJWN4Y62EAHA",true))()
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
